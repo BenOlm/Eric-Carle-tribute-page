@@ -2,11 +2,18 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
+body {
+  height: 5000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 * {
-  margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: antiquewhite;
+  background-color: rgb(255, 244, 231);
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
 
 .top {
@@ -17,10 +24,13 @@ font-family: 'Roboto Slab', serif;
 
 .left {
   width: 50%;
+  
 }
 
 .eric-carle-img {
-  width: 100%;
+  width: 90%;
+  border-radius: 60px;
+  margin: 2em;
 }
 
 /* Right Side */
@@ -46,16 +56,75 @@ font-family: 'Roboto Slab', serif;
 
 .birth-and-death {
   font-size: 2rem;
+  font-style: italic;
   margin-left: 1em;
   margin-right: 1em;
 }
 
 .quote {
   font-size: 1.2rem;
-  margin-left: 1em;
-  margin-right: 1em;
+  font-weight: 200;
+  font-style: italic;
   text-align: center;
-  
+  width: 400px;
 }
 
 /* Main content */
+
+.main {
+  width: 1000px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.short-bio {
+  width: 700px;
+  
+}
+
+.noteable-works-title {
+  font-size: 4rem;
+  font-family: 'Roboto Slab', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.notable-works {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.work {
+  display: flex;
+}
+
+.work-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  width: 550px;
+}
+
+.book-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.book-title {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+
+
